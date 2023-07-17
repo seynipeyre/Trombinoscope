@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid red;
+}
+
+.user-card .card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.img {
+    padding: 4px;
+    box-shadow: 12px solid;
+    box-shadow: 6px 5px 5px red;
+    width: 94%;
+    margin-bottom: 48px;
+}
+
+/* les lien a */
+.cta{
+    text-decoration: none;
+    /* padding: 0.8rem; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #d5610c;
+    font-size: 100%;
+
+}
+ 
+/* ===================================== */
